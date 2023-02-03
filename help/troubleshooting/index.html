@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.728754743763">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 2.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Troubleshooting Errors</title>
+    <meta name="title" content="Troubleshooting Errors">
+    <meta name="description" content="Common error messages. Use the sidebar ➡️to jump to the error you're seeing." />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="/help/troubleshooting/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/help/troubleshooting/">
+    <meta property="og:title" content="Troubleshooting Errors">
+    <meta property="og:description" content="Common error messages. Use the sidebar ➡️to jump to the error you're seeing.">
+    <meta property="og:image" content="/public/assets/trouble-increase-slippage.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="/help/troubleshooting/">
+    <meta property="twitter:title" content="Troubleshooting Errors">
+    <meta property="twitter:description" content="Common error messages. Use the sidebar ➡️to jump to the error you're seeing.">
+    <meta property="twitter:image" content="/public/assets/trouble-increase-slippage.png">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../resources/css/retype.css?v=2.4.0.728754743763" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.728754743763" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.728754743763" data-turbo-eval="false" defer></script>
+
+    <link href="/public/verto.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/public/assets/verto-icon.png">
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../public/assets/verto-logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../public/assets/verto-logo-white.png">
+                            </span>
+                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">v0.0.1</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://vertotrade.com">Website</a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/vertotrade/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://vertotrade.com">Website</a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/vertotrade/" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Twitter</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="grow min-w-0 px-6 md:px-16">
+                        <main class="relative pt-6 pb-16">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<doc-anchor-target id="troubleshooting-errors" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#troubleshooting-errors">#</doc-anchor-trigger>
+        <span>Troubleshooting Errors</span>
+    </h1>
+</doc-anchor-target>
+<p>Sometimes you may find yourself facing a problem that doesn&#x27;t have a clear solution. These troubleshooting tips may help you solve problems you run into.</p>
+<doc-anchor-target id="issues-on-the-exchange">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#issues-on-the-exchange">#</doc-anchor-trigger>
+        <span><strong>Issues on the Exchange</strong></span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="insufficient_output_amount">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#insufficient_output_amount">#</doc-anchor-trigger>
+        <span><strong>INSUFFICIENT_OUTPUT_AMOUNT</strong></span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>The transaction cannot succeed due to error: VertoRouter: INSUFFICIENT_OUTPUT_AMOUNT. This is probably an issue with one of the tokens you are swapping.</p>
+<p>the transaction cannot succeed due to error: execution reverted: pancakerouter: insufficient_output_amount.</p>
+</blockquote>
+<p>You&#x27;re trying to swap tokens, but your slippage tolerance is too low or liquidity is too low.</p>
+<doc-tabs>
+<doc-tab id="solution">
+<template #title>Solution</template>
+<ol>
+<li>Refresh your page and try again later.</li>
+<li>Try trading a smaller amount at one time.</li>
+<li>Increase your slippage tolerance:
+<ol>
+<li>Tap the settings icon on the liquidity page.</li>
+<li>Increase your slippage tolerance a little and try again. <img src="../../public/assets/trouble-increase-slippage.png" alt="Increase Slippage" /></li>
+</ol>
+</li>
+<li>Lastly, try inputting an amount with fewer decimal places.</li>
+</ol>
+</doc-tab>
+<doc-tab id="reason">
+<template #title>Reason</template>
+<p><strong>This usually happens when trading tokens with low liquidity.</strong></p>
+<p>That means there isn&#x27;t enough of one of the tokens you&#x27;re trying to swap in the Liquidity Pool: it&#x27;s probably a small-cap token that few people are trading.</p>
+<p>However, there&#x27;s also the chance that you&#x27;re trying to trade a scam token which cannot be sold. In this case, VertoTrade isn&#x27;t able to block a token or return funds.</p>
+</doc-tab>
+</doc-tabs>
+<doc-anchor-target id="insufficient_a_amount-or-insufficient_b_amount">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#insufficient_a_amount-or-insufficient_b_amount">#</doc-anchor-trigger>
+        <span><strong>INSUFFICIENT_A_AMOUNT or INSUFFICIENT_B_AMOUNT</strong></span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>Fail with error &#x27;VertoRouter: INSUFFICIENT_A_AMOUNT&#x27;<br />
+or<br />
+Fail with error &#x27;VertoRouter: INSUFFICIENT_B_AMOUNT&#x27;</p>
+</blockquote>
+<p>You&#x27;re trying to add/remove liquidity from a liquidity pool (LP), but there isn&#x27;t enough of one of the two tokens in the pair.</p>
+<doc-tabs>
+<doc-tab id="solution">
+<template #title>Solution</template>
+<p><strong>Refresh your page and try again, or try again later.</strong></p>
+<p>Still doesn&#x27;t work?</p>
+<ol>
+<li>Tap the settings icon on the liquidity page.</li>
+<li>Increase your slippage tolerance a little and try again.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../public/assets/trouble-increase-slippage.png" alt="Increase Slippage" />
+    <figcaption class="caption">Increase Slippage</figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab id="reason">
+<template #title>Reason</template>
+<p>The error is caused by trying to add or remove liquidity for a liquidity pool (LP) with an insufficient amount of token A or token B (one of the tokens in the pair).</p>
+<p>It might be the case that prices are updating too fast when and your slippage tolerance is too low.</p>
+<p><figure class="content-center">
+    <img src="https://lh5.googleusercontent.com/T1KMtz2ILDVHljGw1iLbIv0W1KVl7qXL8zU2nLFHkUvDb5oMw9mpUzzBwWmIBz15XDsxZ5w7wsaqAwCs_pxdobz_kY_7BhcZhYtpqWuQGFs23DZq98-SVInlfsS07WzxFPLIYXHt" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p><figure class="content-center">
+    <img src="https://lh5.googleusercontent.com/7aspaCCvDjzxbJxngqwgeq737LB3OUNcAs592QqlEkyrAOTfKsrt_FAwpEylaIJhff5ZcYlzB_r0v1JZwfj3j8Ah6jlUbRoMrAqVfTb3cwDI7B1i5HJtZSQOsTPrv7l7SaclC3BV" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+</doc-tabs>
+<doc-anchor-target id="vertorouter-expired">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vertorouter-expired">#</doc-anchor-trigger>
+        <span>VertoRouter: EXPIRED</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>The transaction cannot succeed due to error: VertoRouter: EXPIRED. This is probably an issue with one of the tokens you are swapping.</p>
+</blockquote>
+<p>Try again, but confirm (sign and broadcast) the transaction as soon as you generate it.</p>
+<p>This happened because you started making a transaction, but you didn&#x27;t sign and broadcast it until it was past the deadline. That means you didn&#x27;t hit &quot;Confirm&quot; quickly enough.</p>
+<doc-anchor-target id="verto-k">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#verto-k">#</doc-anchor-trigger>
+        <span>Verto: K</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>The transaction cannot succeed due to error: Verto: K. This is probably an issue with one of the tokens you are swapping.</p>
+</blockquote>
+<p>Try modifying the amount on “To” field. Therefore putting &quot;(estimated)&quot; symbol on “From”. Then initiate the swap immediately.</p>
+<p><figure class="content-center">
+    <img src="../../public/assets/verto-k-solution.png" alt="Verto K Solution" />
+    <figcaption class="caption">Verto K Solution</figcaption>
+</figure>
+</p>
+<p>This usually happen when you are trying to swap a token with its own fee.</p>
+<doc-anchor-target id="verto-transfer_failed">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#verto-transfer_failed">#</doc-anchor-trigger>
+        <span>Verto: TRANSFER_FAILED</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>The transaction cannot succeed due to error: execution reverted: Verto: TRANSFER_FAILED.</p>
+</blockquote>
+<p>Make sure you have 30% more tokens in your wallet than you intend to trade, or try to trade a lower amount. If you want to sell the maximum possible, try 70% or 69% instead of 100%.<br />
+Caused by the design of Restorative Rebase tokens like tDoge or tBTC.<br />
+<a href="https://btcst.medium.com/stp-8-restorative-rebase-b4fbbdfd96c">Understand how restorative rebase tokens work</a>.</p>
+<p>Another possible cause of this issue is the malicious token issuer just suspended the trading for their token. Or they made selling action only possible for selected wallet addresses. Please always do your own research to avoid any potential fraud. If the token you are trying to swap but failed with this error code is coming from an airdrop, that is most likely a scam. Please do not perform any token approval or follow any links, your fund may be at risk if you try to do so.</p>
+<doc-anchor-target id="transaction-cannot-succeed">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#transaction-cannot-succeed">#</doc-anchor-trigger>
+        <span>Transaction cannot succeed</span>
+    </h3>
+</doc-anchor-target>
+<p>Try trading a smaller amount, or increase slippage tolerance via the settings icon and try again. This is caused by low liquidity.</p>
+<doc-anchor-target id="price-impact-too-high">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#price-impact-too-high">#</doc-anchor-trigger>
+        <span><strong>Price Impact too High</strong></span>
+    </h3>
+</doc-anchor-target>
+<p>Try trading a smaller amount, or increase slippage tolerance via the settings icon and try again. This is caused by low liquidity.</p>
+<!--
+### estimateGas failed
+
+> This transaction would fail. Please contact support
+
+{% tabs %}
+{% tab title="Solution" %}
+
+**If you got this error while trying to swap:**
+
+Please contact the project team of the token you're trying to swap. \*\*\*\* This issue must be resolved by the project team.
+{% endtab %}
+
+{% tab title="Reason" %}
+**This issue (while swapping) is caused by tokens which have hard-coded the V1 VertoTrade router into their contract.**
+
+While this practice is ill-advised at best, the reason for these projects having done this appears to be due to their tokenomics, in which each purchase sends a % of the token to LPs.
+
+The projects affected will likely not work with the V2 router: they will most likely need to create new versions of their tokens pointing to our new router address, and migrate any existing token holders to their new token.
+
+We recommend that any projects which created such tokens should also make efforts to prevent their users from adding them to V2 LP.
+
+The up-to-date router address is [https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)
+{% endtab %}
+{% endtabs %}
+-->
+<doc-anchor-target id="execution-reverted-transferhelper-transfer_from_failed">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#execution-reverted-transferhelper-transfer_from_failed">#</doc-anchor-trigger>
+        <span><strong>Execution reverted: TransferHelper: TRANSFER_FROM_FAILED.</strong></span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>The transaction cannot succeed due to error: execution reverted: TransferHelper: TRANSFER_FROM_FAILED.</p>
+</blockquote>
+<p>When trying to swap tokens, the transaction fails and this error message is displayed. This error has been reported across platforms.</p>
+<doc-tabs>
+<doc-tab id="solution">
+<template #title>Solution</template>
+<ol>
+<li>Check to make sure you have sufficient funds available.</li>
+<li>Ensure you have given the contract allowance to spend the amount of funds you&#x27;re attempting to trade with.</li>
+</ol>
+</doc-tab>
+<doc-tab id="reason">
+<template #title>Reason</template>
+<p>This error happens when trading tokens with insufficient allowance, or when a wallet has insufficient funds.\</p>
+<!-- If you're trading tokens with Restorative Rebase like tau assets tDoge or tBTC, make sure you understand how they work first with this [guide to Rebase tokens](https://btcst.medium.com/stp-8-restorative-rebase-b4fbbdfd96c). -->
+</doc-tab>
+</doc-tabs>
+<doc-anchor-target id="issues-with-farms">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#issues-with-farms">#</doc-anchor-trigger>
+        <span><strong>Issues with Farms</strong></span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="fail-with-error-ds-math-sub-underflow">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#fail-with-error-ds-math-sub-underflow">#</doc-anchor-trigger>
+        <span>Fail with error &#x27;ds-math-sub-underflow&#x27;</span>
+    </h3>
+</doc-anchor-target>
+<p>You&#x27;ve run out of allowance of your LP token allowance to the OptimusMercator contract.</p>
+<p><strong>Use token approval manager like unrekt or BscScan to</strong> </p>
+<doc-anchor-target id="issues-with-pools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#issues-with-pools">#</doc-anchor-trigger>
+        <span><strong>Issues with Pools</strong></span>
+    </h2>
+</doc-anchor-target>
+<!--
+### BEP20: burn amount exceeds balance
+
+> Fail with error 'BEP20: burn amount exceeds balance'
+
+You don't have enough REBUS in your wallet to unstake from the VERTO-REBUS pool.
+
+**Get at least as much REBUS as the amount of VERTO that you’re trying to unstake.**
+
+1. Buy REBUS on the exchange. If you want to unstake 100 VERTO, you need at least 100 REBUS.
+2. Try unstaking again.
+
+If that still fails, you can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
+
+1. Go to: [https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
+2. Click **“Connect to Web3”** and connect your wallet. ![Connect to Web3](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
+3. In section **“4. emergencyWithdraw”**, enter "0" and click “Write”.
+
+This will unstake your staked tokens and lose any uncollected VERTO yield.
+
+{% hint style="warning" %}
+**This will lose any yield that you haven’t harvested yet.**
+{% endhint %}
+
+To stop this happening again, **don’t sell your REBUS.** You still need it to unstake from the “Stake VERTO Earn VERTO” pool.
+
+This error has happened because you have sold or transferred REBUS tokens. REBUS is minted in a 1:1 ratio to VERTO when you stake in the VERTO-VERTO Res Pools. REBUS must be burned at a 1:1 ratio to VERTO when calling leaveStaking (unstaking your VERTO from the pool), so if you don't have enough, you can't unstake from the pool.
+
+{% embed url="https://dashboard.tenderly.co/tx/binance/0x754e18ceea82acac256b49c2b7a81260f7f86dd5e56ee2e3cc1b6ac864c29a8e" %}
+-->
+<doc-anchor-target id="out-of-gas-error">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#out-of-gas-error">#</doc-anchor-trigger>
+        <span>Out of Gas error</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>Warning! Error encountered during contract execution [out of gas]</p>
+</blockquote>
+<p>You have set a low gas limit when trying to make a transaction.</p>
+<doc-tabs>
+<doc-tab id="solution">
+<template #title>Solution</template>
+<p>Try manually increasing the <strong>gas limit</strong> (not gas price!) in your wallet before signing the transaction.</p>
+<p>A limit of 200000 is usually enough.</p>
+<p><figure class="content-center">
+    <img src="../../public/assets/trouble-out-of-gas.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>The above example is from Metamask; check your wallet&#x27;s documentation if you aren&#x27;t sure how to adjust the gas limit.</p>
+</doc-tab>
+<doc-tab id="reason">
+<template #title>Reason</template>
+<p>Basically, your wallet (Metamask, Coinabase, etc.) can&#x27;t finish what it&#x27;s trying to do.</p>
+<p>Your wallet estimates that the gas limit is too low, so the function call runs out of gas before the function call is finished.</p>
+</doc-tab>
+</doc-tabs>
+<!--
+### BEP20: transfer amount exceeds allowance
+
+> Fail with error 'BEP20: transfer amount exceeds allowance'
+
+{% tabs %}
+{% tab title="Solution" %}
+
+1. Use Unrekt.net to revoke approval for the smart contract you're trying to interact with
+2. Approve the contract again, without setting a limit on spend allowance
+3. Try interacting with the contract again.
+{% endtab %}
+
+{% tab title="Reason" %}
+This happens when you set a limit on your spend allowance when you first approved the contract, then try to swap more than the limit.
+{% endtab %}
+{% endtabs %}
+
+### BEP20: transfer amount exceeds balance
+
+> Fail with error 'BEP20: transfer amount exceeds balance'
+
+You're probably trying to unstake from a Res Pools with low rewards in it. Solution below.
+
+If not, you may be trying to send tokens that you don't have in your wallet (for example, trying to send a token that is already assigned to a pending transaction). In this case, just make sure you have the tokens you're trying to use.
+
+{% tabs %}
+{% tab title="Solution" %}
+Firstly,[let the team know](../contact-us/telegram.md) which pool you're trying to unstake from, so they can top up the rewards. If you're in a hurry to unstake and you don't mind losing your pending yield, try an emergencyWithdraw:
+
+You can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
+
+1. Find the contract address of the Res Pools you're trying to unstake from. You can find it in your wallet's transaction log.
+2. Go to [https://bscscan.com/](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) and in the search bar, enter the contract address.
+3. Select **Write Contract.**
+4. Click **“Connect to Web3”** and connect your wallet.![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
+5. In section **“3. emergencyWithdraw”,** and click “Write”.
+
+This will unstake your staked tokens and lose any uncollected yield.
+
+{% hint style="warning" %}
+**This will lose any yield that you haven’t harvested yet.**
+{% endhint %}
+{% endtab %}
+
+{% tab title="Reason" %}
+This error tends to appear when you're trying to unstake from an old Res Pools, but there aren't enough rewards in the pool left for you to harvest when withdrawing. This causes the transaction to fail.
+{% endtab %}
+{% endtabs %}
+-->
+<doc-anchor-target id="other-issues">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#other-issues">#</doc-anchor-trigger>
+        <span><strong>Other issues</strong></span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="provider-error">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#provider-error">#</doc-anchor-trigger>
+        <span>Provider Error</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>Provider Error<br />
+No provider was found</p>
+</blockquote>
+<p>This happens when you try to connect via a browser extension like MetaMask or Binance Chain Wallet, but you haven’t installed the extension.</p>
+<doc-tabs>
+<doc-tab id="solution">
+<template #title>Solution</template>
+<p>Install the official browser extension to connect, or read our guide on <a href="https://docs.vertotrade.com/get-started/connection-guide">how to connect a wallet to VertoTrade</a>.</p>
+</doc-tab>
+</doc-tabs>
+<doc-anchor-target id="unsupported-chain-id">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#unsupported-chain-id">#</doc-anchor-trigger>
+        <span>Unsupported Chain ID</span>
+    </h3>
+</doc-anchor-target>
+<p>Switch your chain to Rebuschain. Check your wallet&#x27;s documentation for a guide if you need help.</p>
+<doc-anchor-target id="already-processing-eth_requestaccounts-please-wait">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#already-processing-eth_requestaccounts-please-wait">#</doc-anchor-trigger>
+        <span>Already processing eth_requestAccounts. Please wait</span>
+    </h3>
+</doc-anchor-target>
+<p>Make sure you are signed in to your wallet app and it&#x27;s connected to Rebuschain.</p>
+<!--
+### Issues buying SAFEMOON and similar tokens
+
+To trade SAFEMOON, you must click on the settings icon and **set your slippage tolerance to 12% or more.**\
+This is because **SafeMoon taxes a 10% fee on each transaction**:
+
+* 5% fee = redistributed to all existing holders
+* 5% fee = used to add liquidity
+
+This is also why you might not receive as much of the token as you expect when you purchase.\
+Read more on [How to Buy Safe Moon](https://community.trustwallet.com/t/how-to-buy-safemoon/155742).
+-->
+<doc-anchor-target id="internal-json-rpc-errors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#internal-json-rpc-errors">#</doc-anchor-trigger>
+        <span>Internal JSON-RPC errors</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>&quot;MetaMask - RPC Error: Internal JSON-RPC error. estimateGas failed removeLiquidityETHWithPermitSupportingFeeOnTransferTokens estimateGas failed removeLiquidityETHWithPermit &quot;</p>
+</blockquote>
+<p>Happens when trying to remove liquidity on some tokens via Metamask. Root cause is still unknown. Try using an alternative wallet.</p>
+<blockquote>
+<p>Internal JSON-RPC error. { &quot;code&quot;: -32000, &quot;message&quot;: &quot;insufficient funds for transfer&quot; } - Please try again.</p>
+</blockquote>
+<p>You don&#x27;t have enough BNB to pay for the transaction fees. You need more BEP-20 network BNB in your wallet.</p>
+<doc-anchor-target id="error-ethjs-query">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#error-ethjs-query">#</doc-anchor-trigger>
+        <span>Error: [ethjs-query]</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p>Error: [ethjs-query] while formatting outputs from RPC &#x27;{&quot;value&quot;:{&quot;code&quot;:-32603,&quot;data&quot;:{&quot;code&quot;:-32000,&quot;message&quot;:&quot;transaction underpriced&quot;}}}&quot;</p>
+</blockquote>
+<p>Increase the gas limit for the transaction in your wallet. Check your wallet&#x27;s documentation to learn how to increase gas limit.</p>
+<blockquote>
+<p>Swap failed: Error: [ethjs-query] while formatting outputs from RPC &#x27;{&quot;value&quot;:{&quot;code&quot;:-32603,&quot;data&quot;:{&quot;code&quot;:-32603,&quot;message&quot;:&quot;handle request error&quot;}}}&#x27;</p>
+</blockquote>
+<p>Cause unclear. Try these steps before trying again:</p>
+<ol>
+<li>Increase gas limit</li>
+<li>Increase slippage</li>
+<li>Clear cache</li>
+</ol>
+<!--
+// TODO add when marketplace is up
+## **Issues with Profile**
+
+### Oops! We couldn't find any Verto Collectibles in your wallet
+
+We're investigating the logic behind this issue. Meanwhile please try the workaround.
+
+{% tabs %}
+{% tab title="Workaround 1" %}
+
+1. Go to “Collectible” page, then come back to profile page.\
+   If you can’t find the link, go to [https://vertotrade.com/collectibles](https://vertotrade.com/collectibles) directly.
+2. Retry profile creation.
+{% endtab %}
+
+{% tab title="Workaround 2" %}
+Change the environment.
+
+* Clear the cache and retry.
+* Retry on different browser.
+* Retry on different wallet apps.
+* Retry on the different network (switch between Wi-Fi and cellular)
+{% endtab %}
+{% endtabs %}
+
+### Checking username keeps spinning
+
+There are two possible causes.
+
+1. You have multiple wallets installed on the browser.
+2. Network issue.
+
+{% tabs %}
+{% tab title="Solution 1" %}
+Root cause: You have multiple wallets installed on the browser.\
+\
+It may make a conflict between wallets. This is out of VertoTrade's control and we can do nothing.
+
+1. Have only single wallet installed on browser, remove the others.
+2. Reconnect the wallet and retry setting username again.
+{% endtab %}
+
+{% tab title="Solution 2" %}
+Root cause: Network is unstable.
+
+You have to retry.
+
+1. Delete whatever has been entered in the text field completely.
+2. Re-type username, then please wait for seconds.
+3. If it doesn’t work, reload the page and retry again.
+{% endtab %}
+{% endtabs %}
+-->
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                                <div class="flex flex-wrap items-center justify-between mt-14">
+                                    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/vertotrade/verto.documentation/blob/master/help/troubleshooting.md" target="_blank" rel="noopener">
+                                        <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        <span>Edit this page</span>
+                                    </a>
+                                </div>
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../help/faq/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">General FAQ</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../help/unsticking-a-transaction-stuck-as-pending-with-metamask/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Fixing Stuck Pending Transactions on Meta​Mask</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023.  – <a href="https://vertotrade.com">Verto Trade</a>. – All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "Troubleshooting Errors", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>
