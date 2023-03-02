@@ -13,25 +13,25 @@ This method works by essentially overwriting the stuck transaction with another,
 
 1\. Open your MetaMask plugin.
 
-![](/public/assets/fix-metamask-plugin.png)
+![](/public/assets/fix-metamask-1.png)
 
 
 
 2\. Click on the colorful circle icon on the top-right and click **Settings** from the dropdown menu.
 
-![](/public/assets/fix-metamask-settings.png)
+![](/public/assets/fix-metamask-2.png)
 
 3\. In the Settings menu, select **Advanced**.
 
-![](/public/assets/fix-metamask-advanced.png)
+![](/public/assets/fix-metamask-3.png)
 
 4\. Scroll down until you see **Advanced gas controls**. Toggle this to ON.
 
-![](/public/assets/fix-metamask-gas-control-on.png)
+![](/public/assets/fix-metamask-4.png)
 
 5\. Still in Advanced settings, keep scrolling until you see **Customize transaction nonce**. Toggle this to ON.
 
-![](</public/assets/fix-metamask-gas-control-on.png>)
+![](</public/assets/fix-metamask-5.png>)
 
 ### **2. Find Your Stuck Transaction**
 
@@ -51,7 +51,7 @@ Now we’re going to make a new transaction to replace the stuck one. We’ll cu
 
 8\. Create a new transaction to replace your stuck transaction. This time around, increase the **Transaction Fee**. Here we’ve increased it from 9 to 20. This will make it more likely for  your transaction to be added to a block.
 
-![](</public/assets/fix-metamask-stuck-trans-2.png>)
+![](</public/assets/fix-metamask-6.png>)
 
 9\. On the confirmation page, make sure your Gas Price is now at your new, higher amount.&#x20;
 
