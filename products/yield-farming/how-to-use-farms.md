@@ -28,11 +28,11 @@ It may sound intimidating, but it's not too complicated. Let's go through step b
 
 Before you proceed, you'll want to choose a Farm that's right for you. [Visit the Farms page](https://vertotrade.com/farms) and you’ll see a list of available Farms.
 
-![Select Fundus](/public/assets/fundus.png)
+![Select Farms](/public/assets/farms.png)
 
 You can choose another sorting option if you like, such as by **APR** for the Farms with the highest reward rate currently.
 
-When you find a Farm that you'd like to use, note down the trading pair, e.g. BNB-VERTO in case you need it later.
+When you find a Farm that you'd like to use, note down the trading pair, e.g. REBUS-VERTO in case you need it later.
 
 ### Providing liquidity to get LP Tokens
 
@@ -50,20 +50,20 @@ Now that you have your LP Tokens, you’re ready to start staking them in a Farm
 ### Putting your LP Tokens into the Farm
 
 1. Go back to the [Farms page](https://vertotrade.com/farms) and locate your Farm. Click anywhere on the row showing your pair. It will expand to show more details.
-![Enable Fundus](/public/assets/enable-fundus.png)
+![Enable Farms](/public/assets/enable-farms.png)
 When you’re ready, click the **Enable** button and confirm your action in your wallet.
 
 2. After a short wait, the Enable button will change to **Stake LP**. Click it and a new window will appear.
-![Stake LP](/public/assets/stake-fundus-lp.png)
+![Stake LP](/public/assets/stake-farms-lp.png)
 
 3. Type the amount of LP Tokens you would like to farm with into the field, or just click **Max** to use all of your LP Tokens.
-![Type Amount](/public/assets/fundus-type-amount.png)
+![Type Amount](/public/assets/farms-type-amount.png)
 
 4. When you have the amount entered, the **Confirm** button will light up. Click it. Your wallet will ask you to confirm your action.
 
 5. After a short wait, the window will close, and you will see your new staked LP Token balance in the details.
 
-![LP Tokens details](/public/assets/fundus-details.png)
+![LP Tokens details](/public/assets/farms-details.png)
 
 ## Adding or removing LP Tokens from a Farm
 
@@ -77,7 +77,7 @@ You should now only see the pairs you have LP Tokens in on the list, making it e
 ![Add, remove from staked LP](/public/assets/staked-lp-add-remove.png)
 
 3. A window will open that looks like the one you used earlier to first stake your LP Tokens. Like last time, type the amount you would like to unstake/stake, or click **Max** to remove/add all available LP Tokens.
-![Unstake/Stake UI](/public/assets/unstake-fundus-lp.png)
+![Unstake/Stake UI](/public/assets/unstake-farms-lp.png)
 
 4. Make sure your information is correct. When you are ready, click the **Confirm** button and confirm the action in your wallet.
 5. After a short wait, your new balance will show in the details section of your LP Token pair. If you've unstaked your LP Tokens, any unharvested rewards you had will automatically have been collected.
@@ -96,7 +96,7 @@ To collect your rewards, you’ll need to visit your chosen Farm and collect the
 
 2. Find the Farm you staked your LP Tokens in, and click the row to view details. You should see an estimate of your rewards under “VERTO earned”.
 
-![Harvest Rewards](/public/assets/harvest-fundus.png)
+![Harvest Rewards](/public/assets/harvest-farms.png)
 
 3 - Click the **Harvest** button and confirm the action in your wallet. After a short wait, the VERTO will be claimed to your wallet for you to use as you like.
 

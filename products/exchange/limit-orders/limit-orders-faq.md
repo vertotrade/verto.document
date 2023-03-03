@@ -27,7 +27,7 @@ Please note: the order history table gets the data from Subgraph and can show sl
 
 ### How do I set slippage while using limit orders?
 
-Slippage is not relevant in limit orders. You specify input amount (e.g. 1000 VERTO) and output amount (e.g. 20 BNB), Limit orders guarantee that you will receive no less than the specified output amount (20 BNB) for your input amount (1000 VERTO) if the price for the pair reaches the desired price. **Note that tokens with fee on transfer should not be used with limit orders** (read above)
+Slippage is not relevant in limit orders. You specify input amount (e.g. 1000 VERTO) and output amount (e.g. 20 REBUS), Limit orders guarantee that you will receive no less than the specified output amount (20 REBUS) for your input amount (1000 VERTO) if the price for the pair reaches the desired price. **Note that tokens with fee on transfer should not be used with limit orders** (read above)
 
 ### The real execution price shows "never executes". What's this?
 

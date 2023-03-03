@@ -1,4 +1,4 @@
-# Fundus v1
+# Farms v1
 
 {% hint style="warning" %}
 VertoTrade is based on Uniswap v2. Read the [Uniswap v2 documentation](https://uniswap.org/docs/v2/).\
@@ -7,13 +7,13 @@ For more in-depth information on the core contract logic, read the [Uniswap v2 C
 
 ## Contract info
 
-**Contract name:** VertoFundus
+**Contract name:** VertoFarms
 
-View [VertoFundus.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoFundus.sol).
+View [VertoFarms.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoFarms.sol).
 
 **Ethereum mainnet**\
 Contract address**:** 0x1097053Fd2ea711dad45caCcc45EfF7548fCB362\
-View the [VertoTrade: Fundus v1 contract on Etherscan](https://etherscan.io/address/0x1097053Fd2ea711dad45caCcc45EfF7548fCB362).
+View the [VertoTrade: Farms v1 contract on Etherscan](https://etherscan.io/address/0x1097053Fd2ea711dad45caCcc45EfF7548fCB362).
 
 ## Read functions
 
@@ -90,14 +90,14 @@ The final `uint` log value will be `1` for the first pair created, `2` for the s
 ## Interface
 
 ```
-import '@uniswap/v2-core/contracts/interfaces/IVertoFundus.sol';
+import '@uniswap/v2-core/contracts/interfaces/IVertoFarms.sol';
 ```
 
 ```
 pragma solidity =0.5.16;
 
 
-interface IVertoFundus {
+interface IVertoFarms {
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);
 
     function feeTo() external view returns (address);

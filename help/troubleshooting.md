@@ -75,7 +75,7 @@ There currently isn't a simple way to solve this issue from the VertoTrade websi
 #### **Approve the LP contract**
 
 Head to the contract of the LP token you're trying to approve.\
-For example, here's the ETH/WBNB pair: [https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
+For example, here's the ETH/WREBUS pair: [https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
 
 1. Select **Write Contract**, then **Connect to Web3** and connect your wallet. ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 2. In **section "1. approve",** approve the LP token for the router by entering
@@ -353,7 +353,7 @@ Happens when trying to remove liquidity on some tokens via Metamask. Root cause 
 
 > Internal JSON-RPC error. { "code": -32000, "message": "insufficient funds for transfer" } - Please try again.
 
-You don't have enough BNB to pay for the transaction fees. You need more BEP-20 network BNB in your wallet.
+You don't have enough REBUS to pay for the transaction fees. You need more ECR-20 network REBUS in your wallet.
 
 ### Error: \[ethjs-query]
 

@@ -3,7 +3,7 @@ order: 90
 ---
 # Token Swaps
 
-[**Token swaps**](https://exchange.vertotrade.finance/#/swap) on VertoTrade are a simple way to trade one BEP-20 token for another via automated liquidity pools.
+[**Token swaps**](https://vertotrade.com/swap) on VertoTrade are a simple way to trade one ECR-20 token for another via automated liquidity pools.
 
 ![Verto Swap UI](/public/assets/token-swap-ui.png)
 
