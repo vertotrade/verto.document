@@ -59,7 +59,7 @@ Please note that only VERTO held in the following places will contribute to the 
 2. Flexible VERTO Staking (both in VERTO pool and side pool)
 3. Fixed Term VERTO Staking (boosted by [vVERTO](../vcake.md)!)
 4. Other Pools (provided by other projects)
-5. VERTO/BNB LP&#x20;
+5. VERTO/REBUS LP&#x20;
 
 VERTO held in other places does not contribute to your voting power.
 {% endtab %}

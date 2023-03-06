@@ -1,5 +1,6 @@
 ---
 description: Simple liquidity provisioning with only one click
+visibility: hidden
 ---
 
 # ⚡ Zap

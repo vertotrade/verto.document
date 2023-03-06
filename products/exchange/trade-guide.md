@@ -11,13 +11,13 @@ Before you can trade, you will need a Rebuschain-compatible wallet. You can lear
 
 ### Trading on the VertoTrade exchange
 
-1\. Go to the exchange page [here](https://exchange.vertotrade.finance/#/swap).
+1\. Go to the exchange page [here](https://vertotrade.com/swap).
 
 2\. Unlock your Rebuschain-compatible wallet by clicking **Unlock Wallet** (you can also **Connect** in the top right-hand corner). If you haven't yet connected your wallet to VertoTrade, you can view the guide to [here](https://docs.vertotrade.com/get-started/connection-guide).
 
 ![](/public/assets/how-to-trade-1.png)
 
-3\. Choose the token you want to trade from the dropdown menu in the "From" section. The default setting is BNB.
+3\. Choose the token you want to trade from the dropdown menu in the "From" section. The default setting is REBUS.
 
 ![](/public/assets/how-to-trade-2.png)
 

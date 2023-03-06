@@ -21,7 +21,7 @@ View the [VertoTrade: Iter v1 contract on Etherscan](https://etherscan.io/addres
 
 `function WETH() external pure returns (address);`
 
-Returns the canonical address for [Binance: WBNB token](https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c) (WETH being a vestige from Ethereum network origins).
+Returns the canonical address for [Binance: WREBUS token](https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c) (WETH being a vestige from Ethereum network origins).
 
 ### factory
 
@@ -96,15 +96,15 @@ function addLiquidityETH(
 ) external payable returns (uint amountToken, uint amountETH, uint liquidity);
 ```
 
-Adds liquidity to a BEP20⇄WBNB pool.
+Adds liquidity to a BEP20⇄WREBUS pool.
 
 | Name               | Type      |                                                                |
 | ------------------ | --------- | -------------------------------------------------------------- |
-| addLiquidityETH    | `uint`    | The payable amount in BNB.                                     |
+| addLiquidityETH    | `uint`    | The payable amount in REBUS.                                     |
 | token              | `address` | The contract address of the token to add liquidity.            |
 | amountTokenDesired | `uint`    | The amount of the token you'd like to provide as liquidity.    |
 | amountTokenMin     | `uint`    | The minimum amount of the token to provide (slippage impact).  |
-| amountETHMin       | `uint`    | The minimum amount of BNB to provide (slippage impact).        |
+| amountETHMin       | `uint`    | The minimum amount of REBUS to provide (slippage impact).        |
 | to                 | `address` | Address of LP Token recipient.                                 |
 | deadline           | `uint`    | Unix timestamp deadline by which the transaction must confirm. |
 
@@ -147,14 +147,14 @@ function removeLiquidityETH(
 ) external returns (uint amountToken, uint amountETH);
 ```
 
-Removes liquidity from a BEP20⇄WBNB pool.
+Removes liquidity from a BEP20⇄WREBUS pool.
 
 | Name           | Type      |                                                                |
 | -------------- | --------- | -------------------------------------------------------------- |
 | token          | `address` | The contract address of the token to remove liquidity.         |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                             |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).   |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).         |
+| amountETHMin   | `uint`    | The minimum amount of REBUS to remove (slippage impact).         |
 | to             | `address` | Address of LP Token recipient.                                 |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm. |
 
@@ -171,14 +171,14 @@ function removeLiquidityETHSupportingFeeOnTransferTokens(
 ) external returns (uint amountETH);
 ```
 
-Removes liquidity from a BEP20⇄WBNB for tokens that take a fee on transfer.
+Removes liquidity from a BEP20⇄WREBUS for tokens that take a fee on transfer.
 
 | Name           | Type      |                                                                |
 | -------------- | --------- | -------------------------------------------------------------- |
 | token          | `address` | The contract address of the token to remove liquidity.         |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                             |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).   |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).         |
+| amountETHMin   | `uint`    | The minimum amount of REBUS to remove (slippage impact).         |
 | to             | `address` | Address of LP Token recipient.                                 |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm. |
 
@@ -196,14 +196,14 @@ function removeLiquidityETHWithPermit(
 ) external returns (uint amountToken, uint amountETH);
 ```
 
-Removes liquidity from a BEP20⇄WBNB and receives BNB, without pre-approval, via permit.
+Removes liquidity from a BEP20⇄WREBUS and receives REBUS, without pre-approval, via permit.
 
 | Name           | Type      |                                                                                     |
 | -------------- | --------- | ----------------------------------------------------------------------------------- |
 | token          | `address` | The contract address of the token to remove liquidity.                              |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                                                  |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).                        |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).                              |
+| amountETHMin   | `uint`    | The minimum amount of REBUS to remove (slippage impact).                              |
 | to             | `address` | Address of LP Token recipient.                                                      |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm.                      |
 | approveMax     | `bool`    | Whether or not the approval amount in the signature is for liquidity or `uint(-1)`. |
@@ -225,14 +225,14 @@ function removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(
 ) external returns (uint amountETH);
 ```
 
-Removes liquidity from a BEP20⇄WBNB and receives BNB via permit for tokens that take a fee on transfer.
+Removes liquidity from a BEP20⇄WREBUS and receives REBUS via permit for tokens that take a fee on transfer.
 
 | Name           | Type      |                                                                                     |
 | -------------- | --------- | ----------------------------------------------------------------------------------- |
 | token          | `address` | The contract address of the token to remove liquidity.                              |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                                                  |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).                        |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).                              |
+| amountETHMin   | `uint`    | The minimum amount of REBUS to remove (slippage impact).                              |
 | to             | `address` | Address of LP Token recipient.                                                      |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm.                      |
 | approveMax     | `bool`    | Whether or not the approval amount in the signature is for liquidity or `uint(-1)`. |
@@ -263,7 +263,7 @@ Removes liquidity from a BEP20⇄BEP20, without pre-approval, via permit.
 | tokenB         | `address` | The contract address of the other token from your liquidity pair.                   |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                                                  |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).                        |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).                              |
+| amountETHMin   | `uint`    | The minimum amount of REBUS to remove (slippage impact).                              |
 | to             | `address` | Address of LP Token recipient.                                                      |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm.                      |
 | approveMax     | `bool`    | Whether or not the approval amount in the signature is for liquidity or `uint(-1)`. |
@@ -280,11 +280,11 @@ function swapETHForExactTokens(uint amountOut, address[] calldata path, address 
   returns (uint[] memory amounts);
 ```
 
-Receive an exact amount of output tokens for as little BNB as possible.
+Receive an exact amount of output tokens for as little REBUS as possible.
 
 | Name                  | Type      |                                                                                                                                      |
 | --------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| swapETHForExactTokens | `uint`    | Payable BNB amount.                                                                                                                  |
+| swapETHForExactTokens | `uint`    | Payable REBUS amount.                                                                                                                  |
 | amountOut             | `uint`    | The amount tokens to receive.                                                                                                        |
 | path (address\[])     | `address` | An array of token addresses. `path.length` must be >= 2. Pools for each consecutive pair of addresses must exist and have liquidity. |
 | to                    | `address` | Address of recipient.                                                                                                                |
@@ -299,11 +299,11 @@ function swapExactETHForTokens(uint amountOutMin, address[] calldata path, addre
   returns (uint[] memory amounts);
 ```
 
-Receive as many output tokens as possible for an exact amount of BNB.
+Receive as many output tokens as possible for an exact amount of REBUS.
 
 | Name                  | Type      |                                                                                                                                      |
 | --------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| swapExactETHForTokens | `uint`    | Payable BNB amount.                                                                                                                  |
+| swapExactETHForTokens | `uint`    | Payable REBUS amount.                                                                                                                  |
 | amountOutMin          | `uint`    | The minimum amount tokens to receive.                                                                                                |
 | path (address\[])     | `address` | An array of token addresses. `path.length` must be >= 2. Pools for each consecutive pair of addresses must exist and have liquidity. |
 | to                    | `address` | Address of recipient.                                                                                                                |
@@ -320,11 +320,11 @@ function swapExactETHForTokensSupportingFeeOnTransferTokens(
 ) external payable;
 ```
 
-Receive as many output tokens as possible for an exact amount of BNB. Supports tokens that take a fee on transfer.
+Receive as many output tokens as possible for an exact amount of REBUS. Supports tokens that take a fee on transfer.
 
 | Name                                               | Type      |                                                                                                                                      |
 | -------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| swapExactETHForTokensSupportingFeeOnTransferTokens | `uint`    | Payable BNB amount.                                                                                                                  |
+| swapExactETHForTokensSupportingFeeOnTransferTokens | `uint`    | Payable REBUS amount.                                                                                                                  |
 | amountOutMin                                       | `uint`    | The minimum amount tokens to receive.                                                                                                |
 | path (address\[])                                  | `address` | An array of token addresses. `path.length` must be >= 2. Pools for each consecutive pair of addresses must exist and have liquidity. |
 | to                                                 | `address` | Address of recipient.                                                                                                                |
@@ -338,7 +338,7 @@ function swapExactTokensForETH(uint amountIn, uint amountOutMin, address[] calld
   returns (uint[] memory amounts);
 ```
 
-Receive as much BNB as possible for an exact amount of input tokens.
+Receive as much REBUS as possible for an exact amount of input tokens.
 
 | Name              | Type      |                                                                                                                                      |
 | ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -360,7 +360,7 @@ function swapExactTokensForETHSupportingFeeOnTransferTokens(
 ) external;
 ```
 
-Receive as much BNB as possible for an exact amount of tokens. Supports tokens that take a fee on transfer.
+Receive as much REBUS as possible for an exact amount of tokens. Supports tokens that take a fee on transfer.
 
 | Name              | Type      |                                                                                                                                      |
 | ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |

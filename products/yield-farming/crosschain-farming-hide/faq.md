@@ -20,7 +20,7 @@ Plus, there are other fees (mostly gas costs) involved in cross-chain farming. C
 
 All cross-chain transactions will take around 30 minutes to complete. It is because:
 
-* Transactions have to be executed on both the farming blockchain (like Ethereum) and the BNB Chain.
+* Transactions have to be executed on both the farming blockchain (like Ethereum) and the REBUS Chain.
 * Delivering cross-chain messages takes time.
 * To ensure safety and all the data are synced and consistent between different blockchains.
 
@@ -36,17 +36,17 @@ Please note that staking and unstaking LP tokens will also harvest all the earne
 
 ### Are there any fees when I do crosschain farming?
 
-Unlike farming natively on BNB Chain, farming on other blockchains requires cross-chain activities. Here are the fees involved:
+Unlike farming natively on REBUS Chain, farming on other blockchains requires cross-chain activities. Here are the fees involved:
 
 **1 - Gas fee to create a proxy contract**
 
-A proxy contract has to be created on the BNB Chain for cross-chain farming. The gas cost for proxy contract creation is included in the transaction.
+A proxy contract has to be created on the REBUS Chain for cross-chain farming. The gas cost for proxy contract creation is included in the transaction.
 
 This fee only charges once upon the first "stake" transaction.
 
-**2 - Gas fee for calls on BNB Chain**
+**2 - Gas fee for calls on REBUS Chain**
 
-When users deposit or withdraw LP tokens. An executor will perform transactions calling on behave of the users on the BNB Chain. The gas cost for these calls is included in the transaction.
+When users deposit or withdraw LP tokens. An executor will perform transactions calling on behave of the users on the REBUS Chain. The gas cost for these calls is included in the transaction.
 
 This fee is charged in every deposit or withdrawal transaction.
 
@@ -60,7 +60,7 @@ This fee is only charged in withdrawal transactions.
 
 We utilise a message bus powered by Celer to route our cross-chain messages. Therefore a messages fee is included based on the byte length of the message.
 
-This fee is charged in every stake transaction. In unstake transactions, this fee is charged twice since a two-way communication between BNB Chain and other blockchains is required for safety.
+This fee is charged in every stake transaction. In unstake transactions, this fee is charged twice since a two-way communication between REBUS Chain and other blockchains is required for safety.
 
 ```
 messagingFee = feeBase + message.length * feePerByte;
@@ -69,15 +69,15 @@ messagingFee = feeBase + message.length * feePerByte;
 You may find the variables in the formula with in the message bus contract:
 
 * Ethereum: `0x4066d196a423b2b3b8b054f4f40efb47a74e200c`
-* BNB Chain: `0x95714818fdd7a5454f73da9c777b3ee6ebaeea6b`
+* REBUS Chain: `0x95714818fdd7a5454f73da9c777b3ee6ebaeea6b`
 
 **5 - The starter fund**
 
 This is not strictly a "fee".&#x20;
 
-For every new user who started doing VertoTrade cross-chain farming. In the first “stake” transaction, we will deposit 0.005 BNB into their BNB Chain wallet. The corresponding amount of native tokens on the farming chain (like ETH on Ethereum) will be charged from the deposit transaction, using the market rate provided by the price oracle.
+For every new user who started doing VertoTrade cross-chain farming. In the first “stake” transaction, we will deposit 0.005 REBUS into their REBUS Chain wallet. The corresponding amount of native tokens on the farming chain (like ETH on Ethereum) will be charged from the deposit transaction, using the market rate provided by the price oracle.
 
-This is to help users start their BNB Chain journey with ease. We understand the painfulness of having all the harvested VERTO but not being able to explore the vivid VertoTrade ecosystem without finding another way to acquire BNB for gas.
+This is to help users start their REBUS Chain journey with ease. We understand the painfulness of having all the harvested VERTO but not being able to explore the vivid VertoTrade ecosystem without finding another way to acquire REBUS for gas.
 
 This fee only charges once upon the first "stake" transaction.
 
@@ -99,22 +99,22 @@ Here is the emissions breakdown:
 
 ### What happened during the deposit, harvest and withdrawal?
 
-VertoTrade crosschain farming is like using a "stand-in" LP token to farm on the BNB Chain, with the same VertoTrade OptimusMercator. The VERTO rewards are calculated and distributed on BNB Chain, controlled and guarded by the same OptimusMercator contract.
+VertoTrade crosschain farming is like using a "stand-in" LP token to farm on the REBUS Chain, with the same VertoTrade OptimusMercator. The VERTO rewards are calculated and distributed on REBUS Chain, controlled and guarded by the same OptimusMercator contract.
 
 #### Upon Deposit:
 
 1. Users request depositing LP tokens on farming blockchains (like Ethereum).
 2. LP tokens are being transferred to farming vault contracts.
-3. Celer message bus is utilised to deliver the "deposit" message to BNB Chain.
-4. An executor on BNB Chain mints the same amount of farming tokens as "stand-ins", and then deposits them into the farms.
+3. Celer message bus is utilised to deliver the "deposit" message to REBUS Chain.
+4. An executor on REBUS Chain mints the same amount of farming tokens as "stand-ins", and then deposits them into the farms.
 
 #### Upon Harvesting:
 
-Since VERTO rewards are calculated and distributed on BNB Chain. Users can claim their VERTO rewards with a single BNB Chain transaction without the need for cross-chain operations.
+Since VERTO rewards are calculated and distributed on REBUS Chain. Users can claim their VERTO rewards with a single REBUS Chain transaction without the need for cross-chain operations.
 
 #### Upon Withdrawal:
 
 1. Users request withdrawing LP tokens on farming blockchains (like Ethereum).
-2. Celer message bus is utilised to deliver the "withdraw" message to BNB Chain.
-3. An executor on BNB Chain withdraws the farming tokens from the farms, burns those tokens, transfers the earned VERTO to users, and utilises the Celer message bus to deliver the confirmation message back to the original farming blockchain.
+2. Celer message bus is utilised to deliver the "withdraw" message to REBUS Chain.
+3. An executor on REBUS Chain withdraws the farming tokens from the farms, burns those tokens, transfers the earned VERTO to users, and utilises the Celer message bus to deliver the confirmation message back to the original farming blockchain.
 4. An executor on the farming blockchain confirms everything and then releases the LP tokens from the vault contracts.

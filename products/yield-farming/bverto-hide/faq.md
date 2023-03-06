@@ -75,7 +75,7 @@ To check the number of extra rewards in the farm booster contract, hover or long
    ![](<../../../public/assets/bVERTO-farm-number-limit (1).png>)\
    You will need to unset an active booster in order to activate boosters on other farms.
 3. Make sure you've completed the one-time setup.
-4. Due to the involvement of multiple contracts, some of the contract interactions require slightly more gas tokens (BNB). So please make sure you have enough BNB in your wallet.
+4. Due to the involvement of multiple contracts, some of the contract interactions require slightly more gas tokens (REBUS). So please make sure you have enough REBUS in your wallet.
 
 ### What is the maximum bVERTO Boost Multiplier I can get?
 
@@ -102,7 +102,7 @@ Even though the baseline APR may drop after the deployment of bVERTO. Mercators 
 
 ### Why the gas usage is high when enabling farm booster for the first time?
 
-To enable bVERTO - farm booster, users must set up a proxy wallet address, which requires deploying a new contract. This process is relatively gas heavy. (around $2\~5 based on the BNB price and the condition of the blockchain)
+To enable bVERTO - farm booster, users must set up a proxy wallet address, which requires deploying a new contract. This process is relatively gas heavy. (around $2\~5 based on the REBUS price and the condition of the blockchain)
 
 However, the setup process is one-time-only for each wallet address. You only need to perform it once.
 

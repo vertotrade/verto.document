@@ -4,7 +4,7 @@
 
 ## **Trading on the StableSwap**
 
-Trading on the StableSwap is very similar to using the existing VertoTrade AMM. Before we start, it also requires a Rebuschain-compatible wallet and BNB for gas fees. Please check our [wallet guide](https://docs.vertotrade.com/get-started/wallet-guide) for more details.
+Trading on the StableSwap is very similar to using the existing VertoTrade AMM. Before we start, it also requires a Rebuschain-compatible wallet and REBUS for gas fees. Please check our [wallet guide](https://docs.vertotrade.com/get-started/wallet-guide) for more details.
 
 1 - Go to the Swap page [here](https://vertotrade.com/swap)
 

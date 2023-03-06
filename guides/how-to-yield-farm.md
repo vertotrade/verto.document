@@ -16,21 +16,21 @@
 
 ![](https://lh6.googleusercontent.com/daqT5y0qByNsNha7dv3AC0bosCLBCq5MfQYV1NTLfG1pJjcuaUuvYbVvZacuWsd1V1ACctFvbfY8BMAB4hb4bPo0_gdXqWBwLawsSDlceIEVi8GOQrsCE6vEAVxZOngxSmFEbN78)
 
-**3. Pick which farm you want to use. For this example, we will pick the VERTO-BNB farm.**
+**3. Pick which farm you want to use. For this example, we will pick the VERTO-REBUS farm.**
 
 \*\*\*\*
 
 ![](https://lh4.googleusercontent.com/Hd3RrSXeCp1Al-uoB6Aa1WO--KPZjnc6VBABhRa0IiROKE66kBFcn8yMELwAOJI5dakVQoCjMqi-RDmP3VLKlSpdS9R3QPy8Qt3x0K2wDmyhFXex142TiGPVRd23jXrn5JKkoHQ8)
 
-**4. Go to the exchange page** [**here**](https://exchange.vertotrade.finance/?_gl=1*rbtvb8*_ga*MTUzNDEzNDQxMy4xNjAwNzkzNDM4*_ga_334KNG3DMQ*MTYwNDA2MDUwMS40OC4xLjE2MDQwNjU0NTIuMA..#/swap) **and click “Pool” and then “Add Liquidity”.**
+**4. Go to the exchange page** [**here**](https://vertotrade.com/swap) **and click “Pool” and then “Add Liquidity”.**
 
 \*\*\*\*
 
 ![](https://lh4.googleusercontent.com/tWPfEFbqdefMnZDJlUdJ8frPUhtm9fpdqYszrlC_JsZ1RphfTdDMt2slyJszv3snEGi2H5BHN_Q0Lpi0LrcQEpSppCkRF_SO6ZPqYyXKu0bCxCXiRJstRtCY1UpVOa3UX41831S3)
 
-**5. Select the tokens to add, in this case BNB and VERTO. You need to provide them in a 50/50 ratio vs USD value.**
+**5. Select the tokens to add, in this case REBUS and VERTO. You need to provide them in a 50/50 ratio vs USD value.**
 
-**For example, you would need to add $10 of BNB and $10 of VERTO. Once you are done, click “Supply”.**
+**For example, you would need to add $10 of REBUS and $10 of VERTO. Once you are done, click “Supply”.**
 
   
 ****
@@ -68,4 +68,3 @@
 ![](https://lh6.googleusercontent.com/LGjy7gAuN99xv-ja_2Ni85QNEJ0eaZfzPiOl7K89-QTmpBsOZYl0XODBMeEgFSm0Qmf8iECxCEDv_Kiyml8f5nJXynD1Z11yuk9188M3QSzei1skUIbFW1hAykmmvAZt0R2zx91o)
 
 **11. Done! Now you are farming VERTO tokens!**
-
