@@ -1,3 +1,6 @@
+---
+visibility: hidden
+---
 # VERTO Res Pools FAQ
 
 ## FAQ
