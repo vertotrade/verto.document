@@ -21,6 +21,8 @@ Crypto moves fast, and so we do. Pivoting is a way of life. That means that we d
   Other improvements and upgrades
 * Fiat integrations
 * More Defi products to come!
+* Charts & other trading features on-site
+* Verto Bridge
 
 ### Ongoing/Recurring
 
@@ -31,25 +33,16 @@ Crypto moves fast, and so we do. Pivoting is a way of life. That means that we d
 #### Trade
 
 * Stablecoin Swap - more pairs added
-* Zap - Provide liquidity in one click
-* Perpetual Trading
 * Limit Orders
-* Charts & other trading features on-site
-* Verto Bridge
 * Token Risks Scanning
 * Multichain Swap & Liquidity
 
 #### Earn
 
 * VERTO Staking
-  * Fixed-term Staking
   * VERTO Side Pool - Flexible VERTO staking on the side of locked staking
-* Fixed-Term Staking Benefits&#x20;
-  * bVERTO, farm yield booster
 * Farms
 * Crosschain Farming
-* Pools
-* Res Pools Farm Boosts
-* Auto-compounding VERTO-VERTO Res Pools
-* APR/APY Calculator v3
+* Res Pools
+* APR/APY Calculator v1
 * Harvest all function
