@@ -27,4 +27,4 @@ But that's not all -- there's much more on the horizon for VERTO!
 Check below to discover the nuts and bolts of how VERTO works.
 
 [!ref](verto-tokenomics.md)
-[!ref](controlling-cake-supply.md)
+[!ref](controlling-verto-supply.md)

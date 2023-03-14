@@ -4,7 +4,7 @@ order: 90
 
 # VERTO Res Pools
 
-## Stake VERTO, earn VERTO!
+## Stake REBUS or VERTO, earn VERTO, LUDUS, AUREUS and more!
 
 VertoTrade offers Res Pools with flexible staking.
 
@@ -12,11 +12,11 @@ VertoTrade offers Res Pools with flexible staking.
 
 ## What’s “Flexible” staking?
 
-You can simply stake your REBUS tokens to earn VERTO tokens or stake VERTO tokens to earn LUDUS and AUREUS with no deposit fees. Flexible staking allows users to stake REBUS or VERTO and earn rewards with the ability to unstake whenever they please.
+You can simply stake your REBUS tokens to earn VERTO tokens or stake VERTO tokens to earn other assets in the platform. Flexible staking allows users to stake REBUS or VERTO and earn rewards with the ability to unstake whenever they please.
 
 ### Flexible Staking
 
-Stake your REBUS or VERTO and forget about it! VERTO rewards will be automatically distributed and included in your staking balance, minus a small fee.
+Stake your REBUS or VERTO and forget about it! Rewards will be automatically distributed and included in your staking balance.
 
 #### If you have VERTO staked you can
 
@@ -30,13 +30,8 @@ Stake your REBUS or VERTO and forget about it! VERTO rewards will be automatical
 * Only applies within 3 days of manually staking.
 * After 3 days, you can unstake with **no fee**.
 * The 3-day timer resets every time you manually stake more tokens in the pool.
-* This fee only applies to manual unstaking: it does not apply to automatic compounding.
+* This fee only applies to manual unstaking.
 
-#### Performance fee
-
-* **2%, subtracted automatically from each yield harvest**.
-* For example, if the harvest were 1 VERTO, then 0.02 VERTO would be subtracted as the performance fee.
-
-The VERTO collected via the unstaking fee and performance fee is **burned every week** as part of the regular VERTO token burns.
+The VERTO collected via the unstaking fee is **burned every week** as part of the regular VERTO token burns.
 
 This is a good thing for VERTO holders because it reduces the overall amount of VERTO tokens in existence, which helps reduce inflation.
