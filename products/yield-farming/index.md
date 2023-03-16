@@ -18,9 +18,9 @@ Yield Farm APR calculations include both:
 * **Farm base rewards APR** earned staking LP Tokens in the Farm.
 
 Why? Because when you stake your LP tokens in a farm to earn VERTO, you're still providing liquidity to the liquidity pool, so you earn LP rewards as well!
-
+<!--
 ![Farms APR](/public/assets/farms-apr.png)
-
+-->
 So how do we calculate those figures?
 
 ### Calculating Farm Base Reward APR
