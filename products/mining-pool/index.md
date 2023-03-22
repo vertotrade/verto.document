@@ -2,13 +2,13 @@
 order: 90
 ---
 
-# VERTO Res Pools
+# VERTO Minting Pools
 
 ## Stake REBUS or VERTO, earn VERTO, LUDUS, AUREUS and more!
 
-VertoTrade offers Res Pools with flexible staking.
+VertoTrade offers Minting Pools with flexible staking.
 
-![*Note that actual values will vary](/public/assets/res-pools.png)
+![*Note that actual values will vary](/public/assets/minting-pools.png)
 
 ## What’s “Flexible” staking?
 

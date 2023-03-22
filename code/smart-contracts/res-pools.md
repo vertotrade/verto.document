@@ -10,7 +10,7 @@ Each Res pool has its own smart contract. You may find their address with the li
 
 Alternatively, you may track each syrup pool using its deployer.
 
-#### Res Pools Deployers
+#### Minting Pools Deployers
 
 Latest:&#x20;
 

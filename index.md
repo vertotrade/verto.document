@@ -49,6 +49,4 @@ No farm? No problem. Even if your trading pair isn’t supported on the Farms pa
 
 ## Is VertoTrade safe?
 
-VertoTrade was forked from Vertoswap so the smart contract are just as safe. With that said we had a third party review our modification below are the reports:
-
-// TODO add references to reviews.
+VertoTrade was forked from Pancakeswap so the smart contract are just as safe. With that said we are currently having the smart contracts audited and once we have the result they will be published below.

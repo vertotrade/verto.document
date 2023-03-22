@@ -88,7 +88,7 @@ Farming will bring you VERTO rewards over time. You can collect these rewards an
 
 ### Returning to your Farm to Harvest
 
-You can harvest your Farm and Res Pools rewards together from the Home page. If you'd like to collect your farming rewards only, follow along.
+You can harvest your Farm and Minting Pools rewards together from the Home page. If you'd like to collect your farming rewards only, follow along.
 
 To collect your rewards, you’ll need to visit your chosen Farm and collect the VERTO waiting for you.
 

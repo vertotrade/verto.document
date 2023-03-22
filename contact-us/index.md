@@ -11,7 +11,7 @@ icon: comment-discussion
 
 #### [List a Token](business-partnerships.md#exchange)
 
-#### [Apply for Yield Farm or Res Pools](business-partnerships.md#farms-and-syrup-pools)
+#### [Apply for Yield Farm or Minting Pools](business-partnerships.md#farms-and-syrup-pools)
 
 <!-- ### [Apply for the NFT Market](nft-market-applications.md) -->
 <hr />

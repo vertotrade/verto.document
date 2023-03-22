@@ -1,10 +1,10 @@
 ---
 description: >-
-  The new VERTO Res Pools offering fixed-term staking and flexible staking
+  The new VERTO Minting Pools offering fixed-term staking and flexible staking
   options.
 ---
 
-# VERTO Res Pools
+# VERTO Minting Pools
 
 ## Contract info
 
