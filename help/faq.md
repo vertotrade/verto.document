@@ -28,8 +28,8 @@ Read our [How to Stake in Pools guide](https://docs.vertotrade.com/products/pool
 
 Staking in Pools and farming with Yield Farming are both ways to earn more VERTO by supporting VertoTrade.
 
-Staking only needs some VERTO to be added to a Res Pools to earn VERTO or other tokens.\
-[Learn more about Res Pools staking.](https://docs.vertotrade.com/products/pools)
+Staking only needs some VERTO to be added to a Minting Pools to earn VERTO or other tokens.\
+[Learn more about Minting Pools staking.](https://docs.vertotrade.com/products/pools)
 
 Farming is more complicated and needs LP Tokens to earn VERTO.\
 [Learn more about Yield Farming.](https://docs.vertotrade.com/products/yield-farming)

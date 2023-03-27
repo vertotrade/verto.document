@@ -6,9 +6,9 @@ Farms incentivize users to provide liquidity for your trading pair by distributi
 
 Pools are a way of distributing your tokens to Rebuschain users who stake REBUS or VERTO in the pool.
 
-These two products go hand-in-hand on VertoTrade: when a project provides their tokens for a Res Pools, we'll also create a Farm. If you're looking to distribute tokens and incentivize liquidity, get in touch.
+These two products go hand-in-hand on VertoTrade: when a project provides their tokens for a Minting Pools, we'll also create a Farm. If you're looking to distribute tokens and incentivize liquidity, get in touch.
 
-[**Apply to run a Farm or Res Pools**](https://forms.gle/vAybhxspPi34naZ58)
+[**Apply to run a Farm or Minting Pools**](https://forms.gle/vAybhxspPi34naZ58)
 
 * Please don't email us to apply - we only respond to applications via the application form.&#x20;
 

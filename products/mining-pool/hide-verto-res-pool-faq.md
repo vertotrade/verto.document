@@ -1,7 +1,7 @@
 ---
 visibility: hidden
 ---
-# VERTO Res Pools FAQ
+# VERTO Minting Pools FAQ
 
 ## FAQ
 
@@ -9,7 +9,7 @@ visibility: hidden
 
 You can choose from 1-52 weeks. The longer the grater the rewards.
 
-### What variables affect the new VERTO Res Pools yield %s (Flexible and Fixed-Term Staking options)?
+### What variables affect the new VERTO Minting Pools yield %s (Flexible and Fixed-Term Staking options)?
 
 Since flexible staking and fixed-term staking options are part of the same pool, the following variables affect the yield% (APR/APY) of both:
 

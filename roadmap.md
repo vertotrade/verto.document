@@ -15,7 +15,7 @@ Crypto moves fast, and so we do. Pivoting is a way of life. That means that we d
 * NFT drops
 * Verto Squad generative NFT collection
 * NFT Gamifications\
-  Collaboration with Farming Tales and Mining Architect
+  Collaboration with Farming Tales and Minting Architect
 * NFT Market \
   Phase 3 - open NFT platform\
   Other improvements and upgrades
@@ -43,6 +43,6 @@ Crypto moves fast, and so we do. Pivoting is a way of life. That means that we d
   * VERTO Side Pool - Flexible VERTO staking on the side of locked staking
 * Farms
 * Crosschain Farming
-* Res Pools
+* Minting Pools
 * APR/APY Calculator v1
 * Harvest all function
