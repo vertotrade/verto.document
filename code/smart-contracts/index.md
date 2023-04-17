@@ -10,8 +10,8 @@ description: >-
 The following links will take you to the BscScan page for VertoTrade's main smart contracts.
 
 * [VertoTrade: Main Staking Contract/OptimusMercator v1](https://tbd)
-* [VertoTrade: Forum v1](https://tbd)
-* [VertoTrade: Iter v1](https://tbd)
+* [VertoTrade: Farm v1](https://tbd)
+* [VertoTrade: Router v1](https://tbd)
 <!-- [VertoTrade: NFT Market v1](https://tbd) 
 * Others:
   * [Funds Contracts](./#funds-contracts) -->
