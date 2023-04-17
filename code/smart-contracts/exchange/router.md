@@ -1,4 +1,4 @@
-# Iter v1
+# Router v1
 
 {% hint style="warning" %}
 VertoTrade is based on Uniswap v2. Read the [Uniswap v2 documentation](https://docs.uniswap.org/protocol/V2/introduction).\
@@ -7,13 +7,13 @@ For more in-depth information on the core contract logic, read the [Uniswap v2 C
 
 ## Contract info
 
-**Contract name:** VertoIter
+**Contract name:** VertoRouter
 
-View [VertoIter.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoIter.sol).
+<!-- View [VertoIter.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoIter.sol). -->
 
 **Ethereum mainnet**\
-Contract address**:** 0xEfF92A263d31888d860bD50809A8D171709b7b1c\
-View the [VertoTrade: Iter v1 contract on Etherscan](https://etherscan.io/address/0xEfF92A263d31888d860bD50809A8D171709b7b1c).
+Contract address: TBD\
+View the [VertoTrade: Iter v1 contract on Etherscan](tbd).
 
 ## Read functions
 
@@ -21,13 +21,13 @@ View the [VertoTrade: Iter v1 contract on Etherscan](https://etherscan.io/addres
 
 `function WETH() external pure returns (address);`
 
-Returns the canonical address for [Binance: WREBUS token](https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c) (WETH being a vestige from Ethereum network origins).
+Returns the canonical address for [REBUS: WREBUS token](tbd)
 
 ### factory
 
 `function factory() external pure returns (address);`
 
-Returns the canonical address for [VertoFactory](https://bscscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73).
+Returns the canonical address for [VertoFactory](tbd).
 
 {% hint style="warning" %}
 For explanations of the following, view the [Uniswap v2 Internal Functions documentation](https://uniswap.org/docs/v2/smart-contracts/library/#internal-functions).

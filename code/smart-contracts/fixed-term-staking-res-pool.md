@@ -1,7 +1,6 @@
 ---
-description: >-
-  The new VERTO Minting Pools offering fixed-term staking and flexible staking
-  options.
+description: The new VERTO Minting Pools offering flexible staking.
+visibility: hidden
 ---
 
 # VERTO Minting Pools
@@ -11,7 +10,7 @@ description: >-
 **Contract name:** ResPool\
 **Contract address:** `0xtbd`
 
-[View the VertoTrade: Cake Pool Contract on Etherscan.](https://tbd)
+[View the VertoTrade: Minting Pool Contract on Etherscan.](https://tbd)
 
 ## Audits
 

@@ -9,11 +9,11 @@ For more in-depth information on the core contract logic, read the [Uniswap v2 C
 
 **Contract name:** VertoFarms
 
-View [VertoFarms.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoFarms.sol).
+<!-- View [VertoFarms.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoFarms.sol). -->
 
 **Ethereum mainnet**\
-Contract address**:** 0x1097053Fd2ea711dad45caCcc45EfF7548fCB362\
-View the [VertoTrade: Farms v1 contract on Etherscan](https://etherscan.io/address/0x1097053Fd2ea711dad45caCcc45EfF7548fCB362).
+Contract address**:\TBD
+View the [VertoTrade: Farms v1 contract on Etherscan](tbd).
 
 ## Read functions
 
