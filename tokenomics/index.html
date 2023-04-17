@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.735036852173">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.735057885103">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.735036852173" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.735057885103" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.735036852173" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.735057885103" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.735036852173" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.735057885103" data-turbo-eval="false" defer></script>
 
     <link href="/public/verto.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="/public/assets/verto-icon.png">
@@ -200,7 +200,7 @@
 </doc-anchor-target>
 <ul>
 <li><strong>Ticker:</strong> VERTO</li>
-<li><strong>Contract Address:</strong> Rebuschain (ERC20) <a href="https://tbd"><code v-pre>0x0TBD</code></a></li>
+<li><strong>Contract Address:</strong> Rebuschain (ERC20) <a href="https://evm.rebuschain.com/address/0x088D38759c2D67eD0DA54d52AEf8d5Fb748Ef70E"><code v-pre>0x088D38759c2D67eD0DA54d52AEf8d5Fb748Ef70E</code></a></li>
 </ul>
 <doc-anchor-target id="the-basics">
     <h2>
@@ -211,7 +211,7 @@
 <p>VERTO is the token that powers the VertoTrade ecosystem.</p>
 <p>Earn VERTO from Farms and Pools, or <a href="../../products/exchange/">buy it on the exchange</a>, then explore its use cases:</p>
 <ul>
-<li>25% of Verto emissions will be distributed to REBUS stakers in the REBUS-VERTO Minting Pool.</li>
+<li>A percentage of Verto emissions will be distributed to REBUS stakers in the REBUS-VERTO Minting Pool.</li>
 <li>Stake it in <a href="../../products/minting-pools/">Minting Pools</a> to earn free tokens</li>
 <li>Use it in <a href="../../products/yield-farming">Yield Farms</a> to earn more VERTO</li>
 </ul>
@@ -222,27 +222,34 @@
         <span>Hard CAP</span>
     </h2>
 </doc-anchor-target>
-<p>Yes, VERTO has a hard cap of 600M tokens.</p>
+<p>Yes, VERTO has a hard cap of 600M tokens of which ~54% will be burned so there will be a final supply of ~276M VERTO after the first year and 12 years of emission.</p>
+<doc-anchor-target id="first-year-verto-launch">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#first-year-verto-launch">#</doc-anchor-trigger>
+        <span>First year (VERTO LAUNCH)</span>
+    </h2>
+</doc-anchor-target>
+<p>During the first year the token allocation will be slightly different to support the launch of the project and the token:</p>
+<ol>
+<li>9M VERTO will be allocated to Treasury.</li>
+<li>6M VERTO will be allocated to the Rebuschain Investors via a minting pool that will mint VERTO over a period of nine months.</li>
+<li>*Up to 18M VERTO will be allocated to Vertotrade investors via a minting pool that will mint VERTO over a period of nine months.</li>
+<li>*3M VERTO will be allocated to the community that will burn 99% of their rebus in a minting pool that will mint VERTO over a period of nine months.</li>
+</ol>
+<p>* Any amount that will not be allocated in these minting pools will be used as farming incentive in liquidity pools for the first year. Final number will be updated once the minting pools are launched.</p>
 <doc-anchor-target id="emission-rate">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#emission-rate">#</doc-anchor-trigger>
         <span>Emission rate</span>
     </h2>
 </doc-anchor-target>
-<p>Below is the emission rate of VERTO all numbers are approximate based on the average blocktime of 3 seconds of Rebuschain.</p>
+<p>Below is the emission rate of VERTO during twelve years after the first launch year. All numbers are approximate based on the average blocktime of 3 seconds of Rebuschain.</p>
 <doc-anchor-target id="per-block">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#per-block">#</doc-anchor-trigger>
         <span>Per block</span>
     </h3>
 </doc-anchor-target>
-<!--
-| **Metric**             | **Emission/block (VERTO)** | **Emission/day (VERTO)** |
-| ---------------------- | -------------------------: | -----------------------: |
-| Emission               |                          9 |                  259,200 |
-| Burned Weekly          |                        \~6 |                \~172,800 |
-| **Effective Emission** |                  **\~3\*** |           **\~86,400\*** |
--->
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -255,68 +262,18 @@
 <tbody>
 <tr>
 <td>Emission</td>
-<td style="text-align: right;">8.4</td>
-<td style="text-align: right;">249,920</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: right;">123,287</td>
 </tr>
 <tr>
 <td>Burned Weekly</td>
-<td style="text-align: right;">~4.8</td>
-<td style="text-align: right;">~138,240</td>
+<td style="text-align: right;">~2.16</td>
+<td style="text-align: right;">~65,753</td>
 </tr>
 <tr>
 <td><strong>Effective Emission</strong></td>
-<td style="text-align: right;"><strong>~3.6*</strong></td>
-<td style="text-align: right;"><strong>~103,680*</strong></td>
-</tr>
-</tbody>
-</table>
-</div>
-<doc-anchor-target id="distribution">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#distribution">#</doc-anchor-trigger>
-        <span>Distribution</span>
-    </h2>
-</doc-anchor-target>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Distributed to</th>
-<th style="text-align: right;">Reward/block<br />(% of emission)</th>
-<th style="text-align: right;">Reward/block<br />(total VERTO)</th>
-<th style="text-align: right;">Reward/day</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Trading</td>
-<td style="text-align: right;">~6.4%</td>
-<td style="text-align: right;">~0.54</td>
-<td style="text-align: right;">15,552 (approx)</td>
-</tr>
-<tr>
-<td>Farming</td>
-<td style="text-align: right;">~10.7%</td>
-<td style="text-align: right;">~0.9</td>
-<td style="text-align: right;">25,920 (approx)</td>
-</tr>
-<tr>
-<td>VERTO Minting Pools</td>
-<td style="text-align: right;">~25%</td>
-<td style="text-align: right;">~2.1</td>
-<td style="text-align: right;">60,480 (approx)</td>
-</tr>
-<tr>
-<td>Other</td>
-<td style="text-align: right;">~0.5%</td>
-<td style="text-align: right;">~0.06</td>
-<td style="text-align: right;">1728 (approx)</td>
-</tr>
-<tr>
-<td><strong>Total Daily VERTO Emission</strong></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>103,680 (approx)</strong></td>
+<td style="text-align: right;"><strong>~2.04*</strong></td>
+<td style="text-align: right;"><strong>~57,534*</strong></td>
 </tr>
 </tbody>
 </table>
@@ -340,7 +297,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>The burning process is currently manual. <a href="https://tbd">View burn transactions here</a>.</p>
+<p>The burning process is currently manual. <a href="tbd">View burn VERTO here</a>.</p>
         </div>
     </div>
 </div>
@@ -350,11 +307,7 @@
         <span>Why is the VERTO burn manual?</span>
     </h2>
 </doc-anchor-target>
-<p>To hit the ground running, VertoTrade launched with the OptimusMercator contract emitting 8.4 VERTO per block. For that reason, the team didn&#x27;t add additional functions such as the ability to customize the VERTO minting logic. The team controls VERTO emissions through a manual burn process by creating a pools in OptimusMercator v1:</p>
-<ul>
-<li>Burn Pool (PID - TBD) - burned VERTO per block</li>
-</ul>
-<p>These pool work similarly to the farms, where the Mercators can adjust the percentage of the 9 VERTO per block allocated to it after each VERTO emission reduction vote.</p>
+<p>To hit the ground running, VertoTrade launched with the VertoMintingPool contract emitting 2.04 VERTO per block. When users will perform any operation in VertoTrade VERTO will be minted based on the number of operations and will be moved to the burn smart contract address, which for now will be triggered manually. The goal is for this process to evenutally be automatic.</p>
 <doc-anchor-target id="how-to-confirm-verto-supply-for-yourself">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-confirm-verto-supply-for-yourself">#</doc-anchor-trigger>
@@ -363,8 +316,8 @@
 </doc-anchor-target>
 <p>To confirm that the circulating VERTO supply shown on the VertoTrade homepage is correct:</p>
 <ol>
-<li>Head to the VERTO token contract on Rebuschain EVM Explorer and <a href="https://tbd">see how much VERTO is held by the Burn Address.</a> That&#x27;s the total amount of VERTO that&#x27;s been burned (removed from circulation FOREVER, and impossible to ever retrieve).</li>
-<li>Then, subtract this burned amount from the &quot;Total Supply&quot; that Rebuschain EVM Explorer shows.</li>
+<li>Head to the VERTO token contract on Rebuschain EVM Explorer and <a href="tbd">see how much VERTO is held by the Burn Address.</a> That&#x27;s the total amount of VERTO that&#x27;s been burned (removed from circulation FOREVER, and impossible to ever retrieve).</li>
+<li>Then, subtract this burned amount from the &quot;Total Supply&quot; that <a href="https://evm.rebuschain.com">Rebuschain EVM Explorer</a> shows.</li>
 <li>This gives you the actual VERTO supply.</li>
 </ol>
 
