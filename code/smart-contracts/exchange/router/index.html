@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.735036691803">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.735036852173">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../../resources/css/retype.css?v=2.4.0.735036691803" rel="stylesheet" />
+    <link href="../../../../resources/css/retype.css?v=2.4.0.735036852173" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../../resources/js/config.js?v=2.4.0.735036691803" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../../resources/js/config.js?v=2.4.0.735036852173" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../../resources/js/lunr.js?v=2.4.0.735036691803" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../../resources/js/lunr.js?v=2.4.0.735036852173" data-turbo-eval="false" defer></script>
 
     <link href="/public/verto.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="/public/assets/verto-icon.png">
@@ -222,10 +222,10 @@ For more in-depth information on the core contract logic, read the <a href="http
     </h2>
 </doc-anchor-target>
 <p><strong>Contract name:</strong> VertoRouter</p>
-<!-- View [VertoIter.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoIter.sol). -->
+<!-- View [VertoRouter.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoRouter.sol). -->
 <p><strong>Ethereum mainnet</strong><br />
 Contract address: TBD<br />
-View the <a href="tbd">VertoTrade: Iter v1 contract on Etherscan</a>.</p>
+View the <a href="tbd">VertoTrade: Router v1 contract on Rebus EVM Explorer</a>.</p>
 <doc-anchor-target id="read-functions">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#read-functions">#</doc-anchor-trigger>
@@ -1355,12 +1355,12 @@ View the <a href="tbd">VertoTrade: Iter v1 contract on Etherscan</a>.</p>
     </h2>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">import '@uniswap/v2-core/contracts/interfaces/IVertoIter.sol';</code></pre>
+<pre class="language-none"><code v-pre class="language-none">import '@uniswap/v2-core/contracts/interfaces/IVertoRouter.sol';</code></pre>
 </doc-codeblock></div>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">pragma solidity &gt;=0.6.2;
 
-interface IVertoIter01 {
+interface IVertoRouter01 {
     function factory() external pure returns (address);
     function WETH() external pure returns (address);
 
@@ -1454,11 +1454,11 @@ interface IVertoIter01 {
     function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);
 }
 
-// File: contracts\interfaces\IVertoIter02.sol
+// File: contracts\interfaces\IVertoRouter02.sol
 
 pragma solidity &gt;=0.6.2;
 
-interface IVertoIter02 is IVertoIter01 {
+interface IVertoRouter02 is IVertoRouter01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,
