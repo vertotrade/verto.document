@@ -13,7 +13,7 @@ For more in-depth information on the core contract logic, read the [Uniswap v2 C
 
 **Ethereum mainnet**\
 Contract address**:\TBD
-View the [VertoTrade: Farms v1 contract on Etherscan](tbd).
+View the [VertoTrade: Farms v1 contract on Rebus EVM Explorer](tbd).
 
 ## Read functions
 

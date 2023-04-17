@@ -9,11 +9,11 @@ For more in-depth information on the core contract logic, read the [Uniswap v2 C
 
 **Contract name:** VertoRouter
 
-<!-- View [VertoIter.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoIter.sol). -->
+<!-- View [VertoRouter.sol on GitHub](https://github.com/vertotrade/verto.contracts/blob/master/projects/exchange-protocol/contracts/VertoRouter.sol). -->
 
 **Ethereum mainnet**\
 Contract address: TBD\
-View the [VertoTrade: Iter v1 contract on Etherscan](tbd).
+View the [VertoTrade: Router v1 contract on Rebus EVM Explorer](tbd).
 
 ## Read functions
 
@@ -457,13 +457,13 @@ Receive an exact amount of output tokens for as few input tokens as possible.
 ## Interface
 
 ```
-import '@uniswap/v2-core/contracts/interfaces/IVertoIter.sol';
+import '@uniswap/v2-core/contracts/interfaces/IVertoRouter.sol';
 ```
 
 ```
 pragma solidity >=0.6.2;
 
-interface IVertoIter01 {
+interface IVertoRouter01 {
     function factory() external pure returns (address);
     function WETH() external pure returns (address);
 
@@ -557,11 +557,11 @@ interface IVertoIter01 {
     function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);
 }
 
-// File: contracts\interfaces\IVertoIter02.sol
+// File: contracts\interfaces\IVertoRouter02.sol
 
 pragma solidity >=0.6.2;
 
-interface IVertoIter02 is IVertoIter01 {
+interface IVertoRouter02 is IVertoRouter01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,
