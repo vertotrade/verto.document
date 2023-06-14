@@ -45,7 +45,7 @@ Now that you've found a Farm to stake in, you will need to add liquidity to get 
 
 ## Putting your LP Tokens into a farm
 
-Now that you have your LP Tokens, you’re ready to start staking them in a Farm and earning rewards!
+Now that you have your LP Tokens, you’re ready to start staking them in a Farm and gaining rewards!
 
 ### Putting your LP Tokens into the Farm
 

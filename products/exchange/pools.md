@@ -31,7 +31,7 @@ For example:
 * The VERTO/REBUS liquidity pool now has 10.017 VERTO and 10.017 REBUS.
 * Each LP token is now worth 1.00017 VERTO + 1.00017 REBUS.
 
-To make being a liquidity provider even more worth your while, you can also put your LP tokens to work whipping up some fresh yield on the [VERTO Farms](https://vertotrade.com/farms), while still earning your 0.17% trading fee reward.
+To make being a liquidity provider even more worth your while, you can also put your LP tokens to work whipping up some fresh yield on the [VERTO Farms](https://vertotrade.com/farms), while still gaining your 0.17% trading fee reward.
 
 ## Impermanent Loss
 
