@@ -60,13 +60,11 @@ Once you've read all the above, download the VertoTrade and VERTO logos below.
 
 ### PNG Assets
 
-![Logo PNG](../public/assets/verto-logo.png)
 ![Logo Black PNG](../public/assets/verto-logo-black.png)
 
 <div style="background:#000;text-align:center;padding: 20px 0"><img src="/public/assets/verto-logo-white.png" alt="Logo White PNG" /></div>
 
 ![Logo Secondary 1 PNG](../public/assets/verto-logo-green.png)
-![Logo Secondary 2 PNG](../public/assets/verto-logo-orange.png)
 
 ****
 
@@ -76,17 +74,14 @@ Once you've read all the above, download the VertoTrade and VERTO logos below.
 <div style="background:#000;text-align:center;padding: 20px"><img src="/public/assets/verto-icon-white.png" alt="Icon White PNG" /></div>
 
 ![Icon Secondary 1 PNG](../public/assets/verto-icon-green.png)
-![Icon Secondary 2 PNG](../public/assets/verto-icon-orange.png)
 
 ****
 
-![Text PNG](../public/assets/verto-text.png)
 ![Text Black PNG](../public/assets/verto-text-black.png)
 
 <div style="background:#000;text-align:center;padding: 20px"><img src="/public/assets/verto-text-white.png" alt="Text White PNG" /></div>
 
 ![Text Secondary 1 PNG](../public/assets/verto-text-green.png)
-![Text Secondary 2 PNG](../public/assets/verto-text-orange.png)
 
 ### SVG Assets
 
@@ -94,7 +89,6 @@ Once you've read all the above, download the VertoTrade and VERTO logos below.
 {% file src="../public/assets/verto-logo-white.svg" %}
 {% file src="../public/assets/verto-logo-black.svg" %}
 {% file src="../public/assets/verto-logo-green.svg" %}
-{% file src="../public/assets/verto-logo-orange.svg" %}
 
 ****
 
@@ -102,7 +96,6 @@ Once you've read all the above, download the VertoTrade and VERTO logos below.
 {% file src="../public/assets/verto-icon-white.svg" %}
 {% file src="../public/assets/verto-icon-black.svg" %}
 {% file src="../public/assets/verto-icon-green.svg" %}
-{% file src="../public/assets/verto-icon-orange.svg" %}
 
 ****
 
@@ -110,23 +103,18 @@ Once you've read all the above, download the VertoTrade and VERTO logos below.
 {% file src="../public/assets/verto-text-white.svg" %}
 {% file src="../public/assets/verto-text-black.svg" %}
 {% file src="../public/assets/verto-text-green.svg" %}
-{% file src="../public/assets/verto-text-orange.svg" %}
 
 ### Color Identity
-
-#### Primary Gradient
-<div style="background: linear-gradient(92.9deg, #30E8BF -20.75%, #FF8235 99.44%); color:rgba(0, 0, 0, 0.2); width: 100%; height: 20px; padding: 50px 0 80px; text-align:center; font-size: 20px; text-transform:uppercase;font-weight:800;letter-spacing:1px;margin-bottom:30px;">linear-gradient(92.9deg, #30E8BF -20.75%, #FF8235 99.44%)</div>
-
-#### Secondary Color 1
-<div style="background-color:#000000; color:rgba(255, 255, 255, 0.4); width: 100%; height: 20px; padding: 50px 0 80px; text-align:center; font-size: 20px; text-transform:uppercase;font-weight:800;letter-spacing:1px;margin-bottom:30px;">#000000</div>
-
-#### Secondary Color 2
-<div style="background-color:#ffffff; color:rgba(0, 0, 0, 0.2); width: 100%; height: 20px; padding: 50px 0 80px; text-align:center; font-size: 20px; text-transform:uppercase;font-weight:800;letter-spacing:1px;margin-bottom:30px;">#ffffff</div>
-
-#### Tertiary Color 1
+#### Primary Color
 <div style="background-color:#30E8BF; color:rgba(0, 0, 0, 0.2); width: 100%; height: 20px; padding: 50px 0 80px; text-align:center; font-size: 20px; text-transform:uppercase;font-weight:800;letter-spacing:1px;margin-bottom:30px;">#30E8BF</div>
 
-#### Tertiary Color 2
-<div style="background-color:#FF8235; color:rgba(0, 0, 0, 0.2); width: 100%; height: 20px; padding: 50px 0 80px; text-align:center; font-size: 20px; text-transform:uppercase;font-weight:800;letter-spacing:1px;margin-bottom:30px;">#FF8235</div>
+#### Black
+<div style="background-color:#000000; color:rgba(255, 255, 255, 0.4); width: 100%; height: 20px; padding: 50px 0 80px; text-align:center; font-size: 20px; text-transform:uppercase;font-weight:800;letter-spacing:1px;margin-bottom:30px;">#000000</div>
+
+#### White
+<div style="background-color:#ffffff; color:rgba(0, 0, 0, 0.2); width: 100%; height: 20px; padding: 50px 0 80px; text-align:center; font-size: 20px; text-transform:uppercase;font-weight:800;letter-spacing:1px;margin-bottom:30px;">#ffffff</div>
+
+#### Primary Gradient
+<div style="background: linear-gradient(180deg, #30E8BF 0%, #90FFD1 100%); color:rgba(0, 0, 0, 0.2); width: 100%; height: 20px; padding: 50px 0 80px; text-align:center; font-size: 20px; text-transform:uppercase;font-weight:800;letter-spacing:1px;margin-bottom:30px;">background: linear-gradient(180deg, #30E8BF 0%, #90FFD1 100%)</div>
 
 By downloading these files, you confirm that you will only use it to the extent permitted by the Terms detailed in this page.
